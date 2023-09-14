@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# scikit-survival documentation build configuration file
+# cobsurv documentation build configuration file
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -143,14 +143,6 @@ nbsphinx_prolog = r"""
 {% set notebook = env.doc2path(env.docname, base=None)|replace("user_guide/", "notebooks/") %}
 {% set branch = 'master' if 'dev' in env.config.release else 'v{}'.format(env.config.release) %}
 
-.. raw:: html
-
-    <div class="admonition note" style="line-height: 150%;">
-      This page was generated from
-      <a class="reference external" href="https://github.com/sebp/scikit-survival/blob/{{ branch|e }}/{{ docname|e }}">{{ docname|e }}</a>.<br/>
-      Interactive online version:
-      <span style="white-space: nowrap;"><a href="https://mybinder.org/v2/gh/sebp/scikit-survival/{{ branch|e }}?urlpath=lab/tree/{{ notebook|e }}"><img alt="Binder badge" src="https://mybinder.org/badge_logo.svg" style="vertical-align:text-bottom"></a>.</span>
-    </div>
 """
 
 

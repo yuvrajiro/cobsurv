@@ -8,7 +8,7 @@ its early phase but sooll will be equipped with more use cases.
 
 
 cobsurv
-------
+-------
 
 .. toctree::
    :maxdepth: 1

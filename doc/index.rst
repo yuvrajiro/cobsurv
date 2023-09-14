@@ -24,7 +24,7 @@ survival function and time dependent effect of covariates.
         :link: install
         :link-type: doc
 
-        The easiest way to install scikit-survival is to use Python's package manager pip
+        The easiest way to install cobsurv is to use Python's package manager pip
 
         `pip install cobsurv`
 
@@ -41,7 +41,7 @@ survival function and time dependent effect of covariates.
         :link: api/index
         :link-type: doc
 
-        The reference guide contains a detailed description of the scikit-survival API. It describes which classes and functions are available
+        The reference guide contains a detailed description of the cobsurv API. It describes which classes and functions are available
         and what their parameters are.
 
 

@@ -1,11 +1,11 @@
 Installing cobsurv
 ==========================
 
-The easiest way to install scikit-survival is using `pip`:
+The easiest way to install cobsurv is using `pip`:
 
     pip install cobsurv
 
-The current minimum dependencies to run scikit-survival are:
+The current minimum dependencies to run cobsurv are:
 
 - joblib~=1.3.2
 - pycox~=0.2.3

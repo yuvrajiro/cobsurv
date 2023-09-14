@@ -1,4 +1,4 @@
-Citing scikit-survival
+Citing cobsurv
 ======================
 
 If you are using **cobsurv** in your scientific research,
