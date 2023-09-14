@@ -3,7 +3,7 @@
   - Cobra Ensemble for Conditional Survival
 =========================================
 
- is a project stands for Cobra Ensemble for Conditional Survival which serve the python package
+cobsurv is a project stands for Cobra Ensemble for Conditional Survival which serve the python package
 **cobsurv** , cobsurv is a python package for survival analysis based on the proximity measure.
 Currently it host only one method **COBRA Survival** but in future we will add different methods
 based on the proximity measure. We will also provide natively build Random Forest and Newarest Neighbour
