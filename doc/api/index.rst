@@ -7,6 +7,6 @@ This page gives an overview of all public objects, functions and methods.
    :maxdepth: 2
 
 
-   cobsurv
+   models
    util
    functions

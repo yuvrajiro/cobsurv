@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""prxsurv - A package for proximal survival analysis"""
+"""cobsurv - A package for conditional survival analysis"""
 
 __author__ = """Rahul Goswami"""
 __email__ = 'yuvrajiro@gmail.com'
