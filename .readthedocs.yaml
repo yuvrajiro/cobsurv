@@ -1,0 +1,22 @@
+
+version: 2
+
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+        - nbconvert
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+sphinx:
+   configuration: doc/conf.py
+
+submodules:
+  include: all
+  recursive: true

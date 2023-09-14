@@ -1,0 +1,92 @@
+/* from https://github.com/pandas-dev/pandas/pull/49811 */
+table {
+    width: auto; /* Override fit-content which breaks Styler user guide ipynb */
+}
+
+.nboutput .output_area img {
+    border: 5px solid var(--pst-color-background);
+}
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    height: 45px;
+}
+
+.overview-grid .sd-card-title {
+    color: var(--pst-color-link);
+    font-size: calc(var(--pst-font-size-h4) - .1rem);
+    line-height: 1.4;
+}
+
+.overview-grid .sd-card-title.sd-font-weight-bold {
+    font-weight: var(--pst-font-weight-heading) !important;
+}
+
+.overview-grid .sd-card-title .fas {
+    position: absolute;
+    right: 1.2rem;
+    line-height: 1.4;
+    transition: all .2s
+}
+
+.overview-grid .sd-card-hover:hover .sd-card-title {
+    color: var(--pst-color-link-hover);
+}
+
+.overview-grid .sd-card-hover:hover {
+    border-color: var(--sd-color-card-border);
+}
+
+.overview-grid .sd-card-hover:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: #4ce8ff;
+    background: linear-gradient(90deg, #4ce8ff, #d07cff);
+    opacity: 0;
+    transition: all .2s
+}
+
+.overview-grid .sd-card-hover:hover:after {
+    opacity: 1;
+}
+
+.github-icon, .github-repository {
+    display: inline-block;
+}
+
+.github-icon {
+    width: 1.8rem;
+}
+
+.github-icon i {
+    font-size: calc(var(--pst-font-size-icon) - .1rem);
+}
+
+.navbar-icon-links ul.github-facts {
+    margin: 0;
+    padding: 0;
+    font-size: .95rem;
+    font-weight: 700;
+    list-style: none;
+    opacity: .75;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-icon-links .github-fact {
+    display: inline-block;
+}
+
+.navbar-icon-links .github-fact::before {
+    margin: 0.2rem;
+    content: "\00B7"
+}
+
+.navbar-icon-links .github-fact:first-child::before {
+    display: none
+}
