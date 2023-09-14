@@ -1,7 +1,7 @@
 .. cobsurv documentation master file
 
-  - Cobra Ensemble for Conditional Survival
-=========================================
+cobsurv  - Cobra Ensemble for Conditional Survival
+===================================================
 
 cobsurv is a project stands for Cobra Ensemble for Conditional Survival which serve the python package
 **cobsurv** , cobsurv is a python package for survival analysis based on the proximity measure.
